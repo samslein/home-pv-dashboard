@@ -1,10 +1,17 @@
-# Home Solar Dashboard
+# Home PV Dashboard
 
 A standalone dashboard for the home PV systems, imported monthly meter and inverter history, and net-metering outlook.
 
 ## Open the dashboard
 
 Open `index.html` in a modern browser. It is self-contained and does not require a build step or external service. The page includes the monthly history currently bundled through November 5, 2026. Later Iammeter CSV imports are stored in that browser's local storage.
+
+## Publish with GitHub Pages
+
+1. In the repository, open **Settings** → **Pages**.
+2. Under **Build and deployment**, choose **Deploy from a branch**.
+3. Select branch **main** and folder **/(root)**, then click **Save**.
+4. After deployment completes, open the site URL shown on that page. GitHub Pages uses the top-level `index.html` as the site entry page.
 
 ## Current system notes
 
@@ -15,4 +22,3 @@ Open `index.html` in a modern browser. It is self-contained and does not require
 ## Privacy
 
 This repository contains home energy history. Keep it private unless you intentionally want those household production and consumption records to be public.
-
