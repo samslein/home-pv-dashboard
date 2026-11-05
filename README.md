@@ -4,7 +4,7 @@ A standalone dashboard for the home PV systems, imported monthly meter and inver
 
 ## Open the dashboard
 
-Open `index.html` in a modern browser. It is self-contained and does not require a build step or external service. The page includes the monthly history currently bundled through November 5, 2026. Later Iammeter CSV imports are stored in that browser's local storage.
+Open `index.html` in a modern browser. It is self-contained and does not require a build step or external service. The page includes the monthly history currently bundled through November 5, 2026. Later Iammeter CSV imports are stored in that browser's local storage. On a phone, use **Switch to mobile view** for the compact layout; your choice is saved in that browser.
 
 ## Publish with GitHub Pages
 
